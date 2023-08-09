@@ -1,0 +1,317 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    background-color: #f1f1f1;
+}
+.container{
+    margin: auto;
+    padding: 15px 15px;
+    line-height: 1.5;
+    display: flex;
+    background-color: #f1f1f1;
+    max-width: 1600px;
+    /* width: 100%; */
+
+}
+.container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#right-container{
+width: 30%;
+box-shadow: 0 0 7px #8a8a8a;
+float: left;
+background-color: white;
+}
+#right-container::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#right-container .img{
+    position: relative;
+}
+#right-container .img h2{
+    position: absolute;
+    bottom: 1.2vmax;
+    left: 1.2vmax;
+    font-size: 30px;
+}
+.img::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+#bel-img-cont{
+    padding: 0 15px 0 15px;
+}
+.contact i{
+    margin-right: 16px;
+    color: #009688;
+}
+.contact_info{
+    margin: 1em 0 1em 0;
+}
+.contact_info p{
+    font-size: 15px;
+    display: inline-block;
+    color: #757575;
+    font-weight: bold;
+}
+.contact_info p a{
+    text-decoration: none;
+    color: #757575;
+    font-weight: bold;
+}
+
+.contact::after, .contact_info::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.skills{
+    margin-top: 1vmax;
+    margin-bottom: 2vmax;
+}
+.skills .skillsh1 i{
+    color: #009688;
+    display: inline-block;
+    font-size: 17px;
+}
+.skills .skillsh1 h3{
+display: inline-block;
+margin-left: 1vmax;
+color: #757575;
+font-weight: bolder;
+filter: contrast(5.74);
+}
+.skillsp, .languagep{
+    margin: 15px 0 15px 0;
+    font-weight: bold;
+    color: #757575;
+}
+.hundred{
+    background-color: #f1f1f1;
+    border-radius: 20px;
+}
+.photoshop90{
+    background-color: #009688;
+    text-align: center;
+    width: 90%;
+    border-radius: 20px;
+    color: white;
+}
+.photography80{
+    background-color: #009688;
+    text-align: center;
+    width: 80%;
+    border-radius: 20px;
+    color: white;
+}
+.illustrator75{
+    background-color: #009688;
+    text-align: center;
+    width: 75%;
+    border-radius: 20px;
+    color: white;
+}
+.media50{
+    background-color: #009688;
+    text-align: center;
+    width: 50%;
+    border-radius: 20px;
+    color: white;
+}
+.fontsize14{
+    font-size: 14px;
+}
+.skills::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.languages{
+    margin-top: 1vmax;
+    margin-bottom: 1.5vmax;
+}
+.languages::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.languages .languageh1 i{
+    color: #009688;
+    font-size: 17px;
+}
+.languages .languageh1 h3{
+    display: inline-block;
+margin-left: 1vmax;
+color: #757575;
+font-weight: bolder;
+filter: contrast(5.74);
+}
+.English100{
+    background-color: #009688;
+    border-radius: 20px;
+    height: 24px;
+}
+.spanish, .german{
+    background-color: #f1f1f1;
+    height: 24px;
+    border-radius: 20px;
+}
+.german25{
+    background-color: #009688;
+    height: 24px;
+    border-radius: 20px;
+    width: 25%;
+}
+.spanish50{
+    background-color: #009688;
+    height: 24px;
+    border-radius: 20px;
+    width: 50%;
+}
+
+.left-container{
+    width: 69%;
+    float: left;
+    margin-left: 1.2vmax;
+    background-color: #f1f1f1;
+}
+#col-up{
+    padding: 1vmax 1.2vmax;
+    margin: 0 7px 17px 0;
+    box-shadow: 0 0 7px #8a8a8a;
+    width: 96.5%;
+    background-color: white;
+}
+#col-up #col-up-h1 i{
+    color: #009688;
+    margin-right: 1vmax;
+    font-size: 32px;
+}
+#col-up #col-up-h1 h2{
+    display: inline-block;
+    font-size: 36px;
+    color: #757575;
+    padding: 16px 0;
+    font-weight: 600;
+    margin: 1px 0 8px 0;
+}
+#front-end, #web-developer, #graphic-designer{
+    padding: 0.15px 16px;
+}
+
+#col-up-h1::after,#col-up::after,#front-end::after, #web-developer::after, #graphic-designer::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+.contrast{
+    font-size: 18px;
+    color: #757575;
+    filter: contrast(5.74);
+    font-weight: bolder;
+}
+#front-end-col, #web-developer-col, #graphic-designer-col{
+    margin: 10px 0;
+}
+#front-end-col i,  #web-developer-col i,  #graphic-designer-col i{
+    color: #009688;
+    margin-right: 16px;
+}
+#front-end-col span, #web-developer-col span, #graphic-designer-col span{
+color: #009688;
+font-weight: 700;
+}
+#front-end-col span span{
+    background-color: #009688;
+    color: white;
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+#front-end-col p, #web-developer-col p, #graphic-designer-col p{
+    margin: 15px 0;
+    font-weight: 750;
+}
+#col-down{
+    padding: 1vmax 1.2vmax;
+    margin: 0 7px 0 0;
+    box-shadow: 0 0 7px #8a8a8a;
+    width: 96.5%;
+    background-color: white;
+}
+#col-down #col-down-h1 i{
+    color: #009688;
+    margin-right: 1vmax;
+    font-size: 32px;
+}
+#col-down #col-down-h1 h2{
+    display: inline-block;
+    font-size: 36px;
+    color: #757575;
+    padding: 16px 0;
+    font-weight: 600;
+    margin: 1px 0 8px 0;
+}
+#Education-1,#Education-2, #Education-3{
+    margin: 10px 0;
+    padding: 4px 16px;
+}
+#col-down-h1::after,#col-down::after,#Education-1::after,#Education-2::after, #Education-3::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#Education-1-col ,#Education-2-col , #Education-3-col {
+    margin: 10px 0;
+
+}
+#Education-1-col i,#Education-2-col i, #Education-3-col i{
+    color: #009688;
+    margin-right: 16px;
+}
+#Education-1-col span, #Education-2-col span, #Education-3-col span{
+    color: #009688;
+font-weight: 700;
+}
+#Education-1-col p, #Education-2-col p, #Education-3-col p{
+    margin: 15px 0;
+    font-weight: 750;
+}
+.footer{
+    background-color: #009688;
+    margin: 0%;
+    padding: 20px;
+    text-align: center;
+    color: white;
+}
+.footer div{
+    margin: 17px 0;
+}
+.footer p{
+    font-size: 17px;
+    font-weight: 550;
+    margin-top: 15
+    -px;
+}
+.footer p a{
+    color: white;
+}
+.icons i{
+    color: white;
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+.footer div i:hover{
+color: rgba(255, 255, 255, 0.473);
+cursor: pointer;
+}
+
